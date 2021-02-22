@@ -129,6 +129,7 @@ body{
 
 .container .intro-container{
 	width: 100%;
+	padding: 1em;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -140,6 +141,7 @@ body{
 .container .intro-container {
  	flex-direction: column;
  	padding-top: 7em;
+
  }
   
 }
@@ -148,9 +150,7 @@ body{
 
 .container .intro-container h1{
 	color: #fff;
-	font-weight: 400;
-	font-size: 5rem;
-	line-height: 0.9em;
+	font-size: 3rem;
 	margin-bottom: 30px;
 	font-family: "Russo One",sans-serif;
 }
@@ -176,12 +176,10 @@ body{
 }
 
 .container .intro-container button:hover{
-	opacity: 0.8;
 	transition: 0.1s;
-	transform: scale(1.1);
+	transform: scale(1.09);
+	box-shadow: 0 0 0.1rem 0.1rem orange;
 }
-
-
 
 
 .container .intro-img-container{
@@ -256,7 +254,7 @@ body{
 }
 
 .container .newsletter form .btn-class:hover{
-	opacity: 0.8;
+	box-shadow: 0 0 0.3rem 0.2rem orange;
 }
 
 
@@ -301,13 +299,6 @@ body{
 
 
 
- iframe {
-  width: 729px;
-  height: 410px;
-  border: 0;
-}
-
-
 .container1{
 	margin: 0;
 	width: 100%;
@@ -316,7 +307,7 @@ body{
 	align-items: center;
 	flex-direction: row;
 	background-color: #000;
-	padding: 30px;
+	padding: 1rem;
 }
 
 @media (max-width: 600px) {
@@ -326,29 +317,47 @@ body{
 }
 
 
+
+
+.container1 #release #video {
+  width: 729px;
+  height: 410px;
+  border: 0;
+}
+
+@media (max-width: 600px) {
+ .container1 #release #video {
+ 	height: 320px;
+ 	width: 440px;
+ 	}
+ }
+
+
+
+
+
 .container1 .card{
 	max-width: 20em;
 	height: 30em;
 	background-color: #111;
 	margin: 3em 1em;
-	padding: 2em 1.5em;
+	padding: 0em 1.5em;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
-	transition: 0.2s;
 }
 
 .container1 .card:hover{
-	box-shadow: 0 5px 20px orange; 
+	transition: 0.2s;
+	box-shadow: 0 5px 20px orange;
 }
 
 
-
 .container1 .card .imgbox{
-	width: 260px;
-	height: 260px;
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
 }
 
 .container1 .card .imgbox img{
@@ -380,6 +389,11 @@ body{
 	color: #fff;
 }
 
+.container1 .card .info ul .li1{
+	color: #999;
+}
+
+
 .container1 .card .info .btn1{
 	background-color: #fb2a38;
 	color: #fff;
@@ -391,7 +405,7 @@ body{
 
 .container1 .card .info .btn1:hover{
 	transform: scale(1.2);
-	transform: translateY(-5px);
+	transform: translateY(5px);
 	box-shadow: 0 0 0.3rem 0.2rem orange;
 }
 
@@ -399,7 +413,7 @@ body{
 .container1 .disclaimer{
 	width: 100%;
 	height: auto;
-	padding: 1rem;
+	padding: 0;
 	background-color: #000;
 	color: #fff;
 	text-align: center;
@@ -417,6 +431,10 @@ body{
 }
 
 .container1 .disclaimer ul{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-evenly;
+	align-items: center;
 	list-style-type: none;
 }
 
@@ -438,22 +456,5 @@ footer{
 	text-align: center;
 	padding: 1em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
