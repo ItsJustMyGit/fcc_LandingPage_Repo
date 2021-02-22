@@ -21,7 +21,6 @@ body{
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: center;
-
 }
 
 @media (max-width: 600px) {
@@ -56,8 +55,6 @@ body{
 }
 
 
-
-
 #header nav{
 	font-weight: 700;
 }
@@ -77,8 +74,6 @@ body{
     line-height: 1.25rem;
   }
 }
-
-
 
 
 #header nav ul {
@@ -114,7 +109,6 @@ body{
 	justify-content: center;
 	align-items: center;
 	background-color: #000;
-
 }
 
 
@@ -124,8 +118,6 @@ body{
  }
   
 }
-
-
 
 .container .intro-container{
 	width: 100%;
@@ -141,11 +133,8 @@ body{
 .container .intro-container {
  	flex-direction: column;
  	padding-top: 7em;
-
  }
-  
 }
-
 
 
 .container .intro-container h1{
@@ -192,8 +181,6 @@ body{
 }
 
 
-
-
 .container .newsletter{
 	width: 70%;
 	height: 10%;
@@ -204,7 +191,6 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-
 }
 
 .container .newsletter h2{
@@ -237,7 +223,6 @@ body{
  .container .newsletter{
  	width: 90%;
  }
-  
 }
 
 
@@ -272,9 +257,7 @@ body{
  .container .features{
  	flex-direction: column;
  }
-  
 }
-
 
 
 .container .box1{
@@ -317,8 +300,6 @@ body{
 }
 
 
-
-
 .container1 #release #video {
   width: 729px;
   height: 410px;
@@ -331,9 +312,6 @@ body{
  	width: 440px;
  	}
  }
-
-
-
 
 
 .container1 .card{
@@ -364,7 +342,6 @@ body{
 	width: 100%;
 	height: 100%;
 	border-radius: 4px;
-
 }
 
 .container1 .card .info{
@@ -427,7 +404,6 @@ body{
 .container1 .disclaimer span{
 	color: lightgreen;
 	font-weight: 500;
-
 }
 
 .container1 .disclaimer ul{
