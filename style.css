@@ -404,8 +404,8 @@ body{
 }
 
 .container1 .card .info .btn1:hover{
-	transform: scale(1.2);
-	transform: translateY(5px);
+	transition: 0.2s;
+	transform: scale(1.2) translateY(5px);
 	box-shadow: 0 0 0.3rem 0.2rem orange;
 }
 
